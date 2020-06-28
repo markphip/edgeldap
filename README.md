@@ -9,7 +9,7 @@ Run the Server
 --------------
 
 To run this just clone this repository and run: `docker-compose up --build`. This will start the
-SVN Edge and LDAP servers and load the LDAP schema with a few test users loaded from [ldap/ldap-openldap-docker-init.diff]():
+SVN Edge and LDAP servers and load the LDAP schema with a few test users loaded from [ldap/ldap-openldap-docker-init.ldif](ldap/ldap-openldap-docker-init.ldif):
 
 | Username  	| Password  	|
 |---	|---	|
