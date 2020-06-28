@@ -8,8 +8,8 @@ TLS connections.
 Run the Server
 --------------
 
-To run this just clone this repository and run: `docker-compose up`. This will start the
-SVN Edge and LDAP servers and load the LDAP schema with a few test users:
+To run this just clone this repository and run: `docker-compose up --build`. This will start the
+SVN Edge and LDAP servers and load the LDAP schema with a few test users loaded from [ldap/ldap-openldap-docker-init.diff]():
 
 | Username  	| Password  	|
 |---	|---	|
