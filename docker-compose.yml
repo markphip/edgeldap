@@ -20,6 +20,3 @@ services:
     build:
       context: ldap
       dockerfile: Dockerfile
-    ports:
-      - "1389:389"
-      - "1636:636"
